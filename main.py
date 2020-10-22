@@ -155,8 +155,8 @@ parser.add_argument("--detect_two_hand", type=bool, default=True, help="Detect t
 args = parser.parse_args()
 
 
-# testVideo(args.video_path, args.tracker, args.write)
+testVideo(args.video_path, args.tracker, args.write)
 # testVideo('data/v13.mp4')
 # testVideo(0, 'sort')
 
-testMultiImage('data/hands/')
+# testMultiImage('data/hands/')
